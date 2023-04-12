@@ -3,10 +3,10 @@
 #define PLUG_VERSION_HEX 0x00010000
 #define PLUG_VERSION_STR "1.0.0"
 #define PLUG_UNIQUE_ID 'PhFs'
-#define PLUG_MFR_ID 'Acme'
-#define PLUG_URL_STR "https://iplug2.github.io"
-#define PLUG_EMAIL_STR "spam@me.com"
-#define PLUG_COPYRIGHT_STR "Copyright 2020 Acme Inc"
+#define PLUG_MFR_ID 'McPk'
+#define PLUG_URL_STR "https://github.com/micsthepick/freenoise"
+#define PLUG_EMAIL_STR "micksthepick.bots@gmail.com"
+#define PLUG_COPYRIGHT_STR "Copyright 2023 Michael Pannekoek"
 #define PLUG_CLASS_NAME freenoise
 
 #define BUNDLE_NAME "freenoise"
@@ -17,7 +17,7 @@
 
 #define PLUG_CHANNEL_IO "1-1 2-2"
 
-#define PLUG_LATENCY 0
+#define PLUG_LATENCY 480
 #define PLUG_TYPE 0
 #define PLUG_DOES_MIDI_IN 0
 #define PLUG_DOES_MIDI_OUT 0
@@ -38,7 +38,7 @@
 
 #define AAX_TYPE_IDS 'IEF1', 'IEF2'
 #define AAX_TYPE_IDS_AUDIOSUITE 'IEA1', 'IEA2'
-#define AAX_PLUG_MFR_STR "Acme"
+#define AAX_PLUG_MFR_STR "McPk"
 #define AAX_PLUG_NAME_STR "freenoise\nIPEF"
 #define AAX_PLUG_CATEGORY_STR "Effect"
 #define AAX_DOES_AUDIOSUITE 1
